@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "748290668890",
+    "firebase_url": "https://ever-oma-dev-default-rtdb.firebaseio.com",
+    "project_id": "ever-oma-dev",
+    "storage_bucket": "ever-oma-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748290668890:android:c2958aacc7bd93cad4db63",
+        "android_client_info": {
+          "package_name": "com.ever"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748290668890-io6nbf3sfu2kdb26elhki4hl9002trb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXKePm15idnbvwNrNnpIrEBbeunvTwYl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748290668890-io6nbf3sfu2kdb26elhki4hl9002trb3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

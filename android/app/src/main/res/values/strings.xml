@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ever</string>
+    <string name="facebook_app_id">301631153838658</string>
+    <string name="facebook_client_token">f4cce433bbaae97376d2bca5c5433e31</string>         
+    <string name="fb_login_protocol_scheme">fb301631153838658</string>
+    <string name="line_channel_id" translatable="false">1656922305</string>
+</resources>

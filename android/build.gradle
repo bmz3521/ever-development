@@ -1,0 +1,43 @@
+
+buildscript {
+    ext {
+        buildToolsVersion = "30.0.3"
+        minSdkVersion = 21
+        compileSdkVersion = 30
+        targetSdkVersion = 30
+        supportLibVersion = "28.0.3"
+        googlePlayServicesVersion = "16.0.0"
+        googlePlayServicesVisionVersion = "19.0.0"
+        googlePlayServicesIidVersion = "16.0.1"
+        androidMapsUtilsVersion = "0.5+"
+        kotlinVersion = "1.5.20"
+        androidMapsUtilsVersion = "2.0.3"
+        firebaseMessagingVersion = "21.1.0"
+    }
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://maven.google.com" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.0'
+        classpath 'com.android.support:multidex:1.0.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        classpath 'com.google.gms:google-services:4.3.4'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral() 
+        mavenLocal()
+        maven {
+            url "$rootDir/../node_modules/react-native/android"
+        }
+        google()
+        jcenter()
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://www.jitpack.io' }
+    }
+}
